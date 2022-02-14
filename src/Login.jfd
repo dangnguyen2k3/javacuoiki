@@ -1,0 +1,161 @@
+JFDML JFormDesigner: "7.0.5.3.411" Java: "11.0.13" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			"$sizePolicy": 1
+			"title": "ĐĂNG NHẬP"
+			"iconImage": new com.jformdesigner.model.SwingIcon( 0, "/img/medical-team.png" )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+				"autoSize": false
+			} ) {
+				name: "dialogPane"
+				"border": new javax.swing.border.EmptyBorder( 12, 12, 12, 12 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel2"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label1"
+						"text": "ĐĂNG NHẬP"
+						"font": new java.awt.Font( "Montserrat Black", 0, 40 )
+						"foreground": new javax.swing.plaf.ColorUIResource( 238, 238, 238 )
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/enter.png" )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 270
+						"y": 5
+						"width": 320
+						"height": 65
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "background"
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/13221321.png" )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 590
+						"height": 500
+						"x": 0
+						"y": 5
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 0
+					"y": -5
+					"width": 590
+					"height": 505
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel1"
+					"background": new javax.swing.plaf.ColorUIResource( 238, 238, 238 )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "clock"
+						"font": new java.awt.Font( "Montserrat Black", 0, 14 )
+						"foreground": new java.awt.Color( 51, 153, 255, 255 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 30
+						"y": 10
+						"width": 335
+						"height": 45
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "btLogin"
+						"text": "ĐĂNG NHẬP"
+						"font": &Font0 new java.awt.Font( "Montserrat Black", 0, 14 )
+						"background": new java.awt.Color( 51, 153, 255, 255 )
+						"cursor": &Cursor0 new java.awt.Cursor( 12 )
+						"foreground": &ColorUIResource0 new javax.swing.plaf.ColorUIResource( 238, 238, 238 )
+						"borderPainted": false
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "dangnhap", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 200
+						"y": 410
+						"width": 150
+						"height": 40
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "btExit"
+						"text": "THOÁT"
+						"font": #Font0
+						"background": new java.awt.Color( 252, 50, 0, 255 )
+						"cursor": #Cursor0
+						"foreground": #ColorUIResource0
+						"borderPainted": false
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "exit", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 165
+						"height": 40
+						"x": 30
+						"y": 410
+					} )
+					add( new FormComponent( "javax.swing.JPasswordField" ) {
+						name: "password"
+						"background": &Color0 new java.awt.Color( 204, 204, 204, 255 )
+						"font": new java.awt.Font( "Tahoma", 0, 18 )
+						"foreground": sfield java.awt.Color black
+						"border": &SoftBevelBorder0 new javax.swing.border.SoftBevelBorder( 1, null, null, null, null )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 30
+						"y": 355
+						"width": 325
+						"height": 30
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "icon"
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/medical-team.png" )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 130
+						"y": 90
+						"width": 125
+						"height": 118
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "lbPassword"
+						"text": "MẬT KHẨU :"
+						"font": &Font1 new java.awt.Font( "Montserrat Black", 0, 18 )
+						"foreground": new java.awt.Color( 51, 153, 255, 255 )
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/key.png" )
+						"labelFor": new FormReference( "password" )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 30
+						"y": 295
+						"width": 175
+						"height": 78
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "tfUserName"
+						"background": #Color0
+						"font": new java.awt.Font( "Montserrat", 0, 18 )
+						"foreground": sfield java.awt.Color black
+						"border": #SoftBevelBorder0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 30
+						"y": 280
+						"width": 325
+						"height": 30
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "lbUserName"
+						"text": "TÊN ĐĂNG NHẬP"
+						"font": #Font1
+						"foreground": new java.awt.Color( 51, 153, 255, 255 )
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/user.png" )
+						"labelFor": new FormReference( "tfUserName" )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 240
+						"height": 78
+						"x": 30
+						"y": 220
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 380
+					"height": 500
+					"x": 590
+					"y": 0
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 120, 45 )
+			"size": new java.awt.Dimension( 975, 540 )
+		} )
+	}
+}

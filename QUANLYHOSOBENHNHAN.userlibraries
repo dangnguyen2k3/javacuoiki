@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="mysql-connector-java-8.0.27">
+    <archive path="E:/mysql-connector-java-8.0.27/mysql-connector-java-8.0.27/mysql-connector-java-8.0.27.jar" />
+    <archive path="E:/JAVA_IntelJ/QUANLYHOSOBENHNHAN/jar/javax.mail.jar" />
+    <archive path="E:/JAVA_IntelJ/QUANLYHOSOBENHNHAN/jar/jcommon-1.0.23.jar" />
+    <archive path="E:/JAVA_IntelJ/QUANLYHOSOBENHNHAN/jar/jfreechart-1.5.0.jar" />
+  </library>
+  <library name="poi-5.2.0">
+    <archive path="D:/poi-bin-5.2.0-20220106/poi-bin-5.2.0/poi-5.2.0.jar" />
+    <archive path="D:/poi-bin-5.2.0-20220106/poi-bin-5.2.0/poi-examples-5.2.0.jar" />
+    <archive path="D:/poi-bin-5.2.0-20220106/poi-bin-5.2.0/poi-excelant-5.2.0.jar" />
+    <archive path="D:/poi-bin-5.2.0-20220106/poi-bin-5.2.0/poi-ooxml-5.2.0.jar" />
+    <archive path="D:/poi-bin-5.2.0-20220106/poi-bin-5.2.0/poi-ooxml-full-5.2.0.jar" />
+    <archive path="D:/poi-bin-5.2.0-20220106/poi-bin-5.2.0/poi-ooxml-lite-5.2.0.jar" />
+    <archive path="D:/poi-bin-5.2.0-20220106/poi-bin-5.2.0/poi-scratchpad-5.2.0.jar" />
+  </library>
+</eclipse-userlibraries>
+

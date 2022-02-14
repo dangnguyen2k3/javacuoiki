@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="QUANLYHOSOBENHNHAN:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/QUANLYHOSOBENHNHAN_jar</output-path>
+    <root id="archive" name="QUANLYHOSOBENHNHAN.jar">
+      <element id="module-output" name="QUANLYHOSOBENHNHAN" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/miglayout-swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/miglayout-core.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/poi-bin-5.2.0-20220106/poi-bin-5.2.0/poi-5.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/poi-bin-5.2.0-20220106/poi-bin-5.2.0/poi-examples-5.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/poi-bin-5.2.0-20220106/poi-bin-5.2.0/poi-excelant-5.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/poi-bin-5.2.0-20220106/poi-bin-5.2.0/poi-ooxml-5.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/poi-bin-5.2.0-20220106/poi-bin-5.2.0/poi-ooxml-full-5.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/poi-bin-5.2.0-20220106/poi-bin-5.2.0/poi-ooxml-lite-5.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/poi-bin-5.2.0-20220106/poi-bin-5.2.0/poi-scratchpad-5.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../mysql-connector-java-8.0.27/mysql-connector-java-8.0.27/mysql-connector-java-8.0.27.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jar/jcommon-1.0.23.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jar/jfreechart-1.5.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
